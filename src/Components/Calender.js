@@ -5,7 +5,7 @@ import "react-calendar/dist/Calendar.css";
 const Calender = () => {
   const [value, onChange] = useState(new Date());
   return (
-    <div>
+    <div className="App mx-auto">
       <Calendar onClickDay={onChange} value={value} />
     </div>
   );
