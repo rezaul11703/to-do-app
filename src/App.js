@@ -4,6 +4,7 @@ import Calender from "./Components/Calender";
 import CompletedTask from "./Components/CompletedTask";
 import Home from "./Components/Home";
 import Error from "./Components/Share/Error";
+import Footer from "./Components/Share/Footer";
 import Navbar from "./Components/Share/Navbar";
 import TodoList from "./Components/TodoList";
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/calender" element={<Calender></Calender>}></Route>
         <Route path="*" element={<Error></Error>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
